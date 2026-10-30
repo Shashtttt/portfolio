@@ -8,12 +8,14 @@ const portfolioProfile = {
   title: "Data Analyst",
   tagline: "Translating complex datasets into interactive Power BI dashboards, predictive analytics models, and validated business insights.",
   status: "Open to Full-Time Roles & Data Analytics Projects",
-  location: "India / Remote Available",
-  email: "shashvat.analytics@gmail.com",
+  location: "Gurugram, India / Remote Available",
+  phone: "+91 9354644807",
+  email: "shashvat25mca011@ncuindia.edu",
+  altEmail: "shashvat.analytics@gmail.com",
   linkedin: "https://linkedin.com/in/shashvat-rai",
   github: "https://github.com/Shashtttt/Data-Analysis-projects",
   tableauPublic: "https://public.tableau.com",
-  resumeUrl: "#contact",
+  resumeUrl: "assets/docs/Shashvat_Rai_Resume.pdf",
 
   stats: [
     { label: "Production BI Dashboards", value: "4+", icon: "chart" },
@@ -23,11 +25,10 @@ const portfolioProfile = {
   ],
 
   skills: {
-    biAndViz: ["Microsoft Power BI", "DAX Formulas", "Power Query & ETL", "Tableau", "Interactive KPI Scorecards", "Data Storytelling"],
-    databases: ["SQL (PostgreSQL, MySQL)", "Data Modeling (Star Schema)", "CTEs & Window Functions", "Aggregation & Grouping", "Database Hygiene"],
-    programming: ["Python (Flask, Pandas, NumPy)", "Scikit-learn & XGBoost", "SHAP (Explainable AI)", "Chart.js & Matplotlib", "Exploratory Data Analysis (EDA)", "Jupyter Notebooks"],
-    spreadsheets: ["Advanced Excel", "Pivot Tables & Slicers", "XLOOKUP & INDEX/MATCH", "Statistical Distributions", "Business Modeling"],
-    methodologies: ["Interactive What-If Simulation", "Automated PDF Reporting", "Customer Churn Prediction", "Sales Funnel & Volume Flow", "Market Price Valuation", "Cohort Retention"]
+    biAndViz: ["Microsoft Power BI", "Interactive Dashboards", "Chart.js", "DAX Formulas", "Power Query & ETL", "Data Storytelling"],
+    databases: ["SQL (MySQL, PostgreSQL)", "MongoDB", "Firebase Firestore", "Google Cloud / Cloud Run", "AWS Fundamentals", "Data Modeling"],
+    programming: ["Python (Flask, Pandas, NumPy)", "JavaScript & REST APIs", "Gemini API & Generative AI", "AI/ML Fundamentals", "Exploratory Data Analysis (EDA)", "Data Cleaning"],
+    spreadsheets: ["Advanced Excel", "Git & GitHub", "PyCharm IDE", "Database Management Systems", "Big Data Analytics", "Operating Systems"]
   }
 };
 
@@ -643,7 +644,7 @@ const workExperience = [
   {
     role: "Python Programming Intern",
     company: "VaultofCodes",
-    period: "Jun 2024 – Aug 2024",
+    period: "Jun 2026 – Aug 2026",
     highlights: [
       "Completed weekly practical assignments and development tasks as part of a Python programming internship.",
       "Developed a Data Analyzer project covering dataset profiling, data cleaning, visualization, and insight generation."
@@ -652,7 +653,7 @@ const workExperience = [
   {
     role: "Web Development & AI Intern",
     company: "Star App Solutions",
-    period: "Mar 2024 – Jul 2024",
+    period: "Mar 2025 – Jul 2025",
     highlights: [
       "Developed web applications using HTML, CSS, JavaScript, and Python.",
       "Integrated AI and third-party APIs to add intelligent and interactive functionality to web applications.",
@@ -665,13 +666,13 @@ const educationHistory = [
   {
     institution: "The NorthCap University, Gurugram",
     degree: "Master of Computer Applications (MCA), Data Analytics",
-    year: "2025 – 2027",
+    year: "2027",
     details: "CGPA: 8.11"
   },
   {
     institution: "Lingayas Vidyapeeth",
     degree: "Bachelor's Degree",
-    year: "2022 – 2025",
+    year: "2025",
     details: "Score: 85.70%"
   },
   {
