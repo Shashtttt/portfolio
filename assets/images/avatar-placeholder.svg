@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="url(#avatarGrad)"/>
+  <!-- User Profile Icon with Data Accent -->
+  <circle cx="100" cy="75" r="38" fill="#ffffff" fill-opacity="0.95"/>
+  <path d="M 40 168 C 40 128 70 120 100 120 C 130 120 160 128 160 168 Z" fill="#ffffff" fill-opacity="0.95"/>
+  <!-- Small chart overlay badge -->
+  <circle cx="150" cy="145" r="24" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5"/>
+  <rect x="138" y="148" width="5" height="12" rx="1.5" fill="#38bdf8"/>
+  <rect x="146" y="140" width="5" height="20" rx="1.5" fill="#34d399"/>
+  <rect x="154" y="134" width="5" height="26" rx="1.5" fill="#facc15"/>
+</svg>
+

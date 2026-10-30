@@ -1,0 +1,19 @@
+{
+  "name": "data-analyst-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive Data Analyst & Business Intelligence Portfolio Website",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "data-analyst",
+    "portfolio",
+    "powerbi",
+    "tableau",
+    "sql",
+    "python"
+  ],
+  "author": "Shashvat Rai",
+  "license": "MIT"
+}
+
