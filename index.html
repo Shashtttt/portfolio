@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shashvat Rai | Data Analyst &amp; BI Portfolio</title>
-  <meta name="description" content="Portfolio of Shashvat Rai, Data Analyst specializing in Power BI, SQL, Python, Excel, and predictive analytics." />
+  <title>Shashvat Rai | Data Analyst</title>
+  <meta name="description" content="Portfolio of Shashvat Rai, Data Analyst specializing in Power BI, SQL, Python, and Predictive Analytics." />
   
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="assets/images/shashvat-rai.jpg" />
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -20,20 +20,21 @@
 <body>
 
   <!-- ========================================================================
-       Navigation Bar
+       Navigation Bar (Modern Tech Agency Header)
        ======================================================================== -->
   <header class="navbar">
     <div class="container nav-container">
       <a href="#" class="logo-link">
-        <div class="logo-badge">SR</div>
-        <div class="logo-text">Shashvat<span>.data</span></div>
+        <span class="logo-bracket">&lt;/&gt;</span>
+        <span class="logo-text">shashvat<span>.data</span></span>
       </a>
 
       <nav>
         <ul class="nav-links">
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#services" class="nav-link">Expertise</a></li>
+          <li><a href="#selected-work" class="nav-link">Selected Work</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#experience" class="nav-link">Credentials</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
@@ -41,91 +42,121 @@
       <div class="nav-actions">
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Switch Dark/Light Theme">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         </button>
 
-        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        <a href="#contact" class="btn btn-cta-orange btn-sm">
+          Let's work together <span class="btn-arrow-icon">↗</span>
+        </a>
       </div>
     </div>
   </header>
 
   <main>
     <!-- ======================================================================
-         Hero Section
+         Hero Section (Matching Reference: "Big ideas. Built right.")
          ====================================================================== -->
     <section class="hero-section">
       <div class="container hero-grid">
         <div class="hero-content">
-          <div class="badge badge-status">
-            <span class="pulse-dot"></span>
-            <span id="hero-status-text">Open to Full-Time Roles &amp; Analytics Projects</span>
+          <div class="kicker-badge">
+            <span class="kicker-dot"></span>
+            <span>Raw Data To Business Impact</span>
           </div>
 
-          <div class="hero-greeting">Hi, I'm <span class="profile-name">Shashvat Rai</span> 👋</div>
-
-          <h1 class="hero-title">
-            Transforming Raw Data into <span class="gradient-text">Revenue &amp; Clear Insights</span>
+          <h1 class="hero-title-massive">
+            Big data.
+            <span class="highlight-orange">Built right.</span>
           </h1>
 
-          <div class="hero-subtitle profile-title">
-            Data Analyst
-          </div>
-
-          <p class="hero-description" id="hero-tagline">
-            Specializing in Power BI, SQL, Python, and Excel. Building interactive dashboards and analytics models that help leadership make data-backed decisions.
+          <p class="hero-description">
+            I turn complex, scattered datasets into high-impact Power BI dashboards, predictive machine learning pipelines, and verified business decisions. Your data partner, from raw query to executive clarity.
           </p>
 
           <div class="hero-cta-group">
-            <a href="#projects" class="btn btn-primary">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
-              Explore Dashboards
+            <a href="#selected-work" class="btn btn-cta-orange">
+              Explore Selected Work <span class="btn-arrow-icon">↗</span>
             </a>
 
-            <a href="#resume" id="resume-btn" class="btn btn-secondary">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+            <a href="#contact" id="resume-btn" class="btn btn-secondary">
               View Resume
             </a>
           </div>
 
           <div class="social-pills">
-            <a href="#" target="_blank" rel="noopener noreferrer" class="social-pill link-linkedin" title="LinkedIn Profile">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
-            </a>
-
-            <a href="#" target="_blank" rel="noopener noreferrer" class="social-pill link-github" title="GitHub Repositories">
+            <a href="https://github.com/Shashtttt/Data-Analysis-projects" target="_blank" rel="noopener noreferrer" class="social-pill link-github" title="GitHub Repositories">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer" class="social-pill link-tableau" title="Tableau Public Profile">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <a href="https://linkedin.com/in/shashvat-rai" target="_blank" rel="noopener noreferrer" class="social-pill link-linkedin" title="LinkedIn Profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
             </a>
 
-            <a href="#" class="social-pill link-email" title="Send Email">
+            <a href="mailto:shashvat.analytics@gmail.com" class="social-pill link-email" title="Send Email">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             </a>
           </div>
         </div>
 
-        <!-- Profile Visual Card -->
-        <div class="hero-visual">
-          <div class="profile-card">
-            <div class="avatar-wrapper">
-              <img src="assets/images/shashvat-rai.jpg" alt="Shashvat Rai Profile" class="avatar-img" />
-            </div>
-            <h3 class="profile-card-name profile-name">Shashvat Rai</h3>
-            <p class="profile-card-role profile-title">Data Analyst</p>
-            <div style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 12px;" id="profile-location">
-              📍 India / Remote Available
+        <!-- Terminal Window Showcase (Matching Reference Image 2) -->
+        <div class="terminal-window-wrapper">
+          <div class="terminal-floating-badge">
+            <span class="dot-green"></span>
+            <span>Ready for your next data challenge</span>
+          </div>
+
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+              </div>
+              <div class="terminal-file-name">&gt;_ analytics_pipeline.py</div>
+              <div style="font-size: 0.72rem; color: #475569;">SHASHVAT / ENG</div>
             </div>
 
-            <div class="profile-quick-stats">
-              <div class="quick-stat-box">
-                <div class="quick-stat-num">4+</div>
-                <div class="quick-stat-label">Dashboards</div>
+            <div class="terminal-body">
+              <div class="code-line">
+                <span class="line-no">01</span>
+                <span class="code-content code-comment">// From raw data to executive decisions.</span>
               </div>
-              <div class="quick-stat-box">
-                <div class="quick-stat-num">8</div>
-                <div class="quick-stat-label">Projects</div>
+              <div class="code-line">
+                <span class="line-no">02</span>
+                <span class="code-content"><span class="code-keyword">const</span> analysis = <span class="code-keyword">await</span> shashvat.<span class="code-func">pipeline</span>({</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">03</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="code-prop">role</span>: <span class="code-str">'Data Analyst'</span>,</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">04</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="code-prop">stack</span>: [<span class="code-str">'Power BI'</span>, <span class="code-str">'SQL'</span>, <span class="code-str">'Python'</span>, <span class="code-str">'AetherBI'</span>],</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">05</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="code-prop">modeling</span>: [<span class="code-str">'DAX'</span>, <span class="code-str">'XGBoost'</span>, <span class="code-str">'SHAP XAI'</span>],</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">06</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="code-prop">verified_accuracy</span>: <span class="code-accent">true</span>,</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">07</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="code-prop">business_impact</span>: <span class="code-func">Infinity</span></span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">08</span>
+                <span class="code-content">});</span>
+              </div>
+
+              <!-- Mini Profile Bio inside Code Card -->
+              <div class="terminal-footer-info">
+                <img src="assets/images/shashvat-rai.jpg" alt="Shashvat Rai Profile" class="terminal-avatar-mini" />
+                <div>
+                  <div class="terminal-user-title">Shashvat Rai</div>
+                  <div class="terminal-user-role">Data Analyst • India / Remote</div>
+                </div>
               </div>
             </div>
           </div>
@@ -134,36 +165,137 @@
     </section>
 
     <!-- ======================================================================
-         Metrics Counter Bar
+         Editorial Monospace Divider (Matching Reference Image 1)
          ====================================================================== -->
-    <section class="metrics-section">
+    <div class="editorial-divider-banner">
+      <div class="container editorial-divider-content">
+        <div class="editorial-comment">// Built for clarity. Designed for impact.</div>
+        <div>From question to insight. And one to what's next.</div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         Services & Capabilities Section (Matching /01, /02, /03, /04)
+         ====================================================================== -->
+    <section id="services" class="services-section">
       <div class="container">
-        <div class="metrics-bar" id="metrics-bar-container">
-          <!-- Populated by JavaScript -->
+        <div class="kicker-badge">
+          <span class="kicker-dot"></span>
+          <span>Core Capabilities</span>
+        </div>
+        <h2 style="font-size: 2.8rem; font-weight: 900; letter-spacing: -0.02em; margin-top: 10px;">
+          Dedicated analytics.<br />
+          <span style="color: var(--accent-orange);">Tailored for decisions.</span>
+        </h2>
+
+        <div class="services-list">
+          <!-- Service 1 -->
+          <div class="service-row-card" onclick="location.href='#selected-work'">
+            <div class="service-index">/01</div>
+            <div class="service-icon-box">📊</div>
+            <div class="service-title">Executive BI &amp; Dashboards</div>
+            <div class="service-right-body">
+              <p class="service-desc">
+                Interactive Power BI and DAX dashboards that transform scattered spreadsheets into dynamic KPI scorecards, drill-through rankings, and automated anomaly alerts.
+              </p>
+              <div class="service-tags">
+                <span class="service-pill-tag">Power BI</span>
+                <span class="service-pill-tag">DAX Formulas</span>
+                <span class="service-pill-tag">KPI Scorecards</span>
+                <span class="service-pill-tag">Drill-Through Reports</span>
+              </div>
+            </div>
+            <div class="service-arrow-btn">↗</div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-row-card" onclick="location.href='#selected-work'">
+            <div class="service-index">/02</div>
+            <div class="service-icon-box">🗄️</div>
+            <div class="service-title">Advanced SQL &amp; Data Modeling</div>
+            <div class="service-right-body">
+              <p class="service-desc">
+                Normalized and Star Schema database architectures, high-performance CTEs, window functions, and data cleansing routines built for audit-grade reporting.
+              </p>
+              <div class="service-tags">
+                <span class="service-pill-tag">PostgreSQL</span>
+                <span class="service-pill-tag">MySQL</span>
+                <span class="service-pill-tag">Star Schema</span>
+                <span class="service-pill-tag">Window Functions</span>
+                <span class="service-pill-tag">ETL Hygiene</span>
+              </div>
+            </div>
+            <div class="service-arrow-btn">↗</div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-row-card" onclick="location.href='#selected-work'">
+            <div class="service-index">/03</div>
+            <div class="service-icon-box">⚡</div>
+            <div class="service-title">Predictive ML &amp; AetherBI</div>
+            <div class="service-right-body">
+              <p class="service-desc">
+                Automated machine learning with Scikit-learn, XGBoost, transparent SHAP explainability, and interactive What-If sensitivity simulation built into AetherBI.
+              </p>
+              <div class="service-tags">
+                <span class="service-pill-tag">Python &amp; Flask</span>
+                <span class="service-pill-tag">Scikit-learn</span>
+                <span class="service-pill-tag">XGBoost</span>
+                <span class="service-pill-tag">SHAP Values</span>
+                <span class="service-pill-tag">What-If Engine</span>
+              </div>
+            </div>
+            <div class="service-arrow-btn">↗</div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-row-card" onclick="location.href='#selected-work'">
+            <div class="service-index">/04</div>
+            <div class="service-icon-box">📈</div>
+            <div class="service-title">Market &amp; Price Valuation</div>
+            <div class="service-right-body">
+              <p class="service-desc">
+                Longitudinal multi-year sales trends, pricing elasticity, and portfolio valuation across automotive, real estate, and consumer goods markets.
+              </p>
+              <div class="service-tags">
+                <span class="service-pill-tag">Pricing Analytics</span>
+                <span class="service-pill-tag">Real Estate BI</span>
+                <span class="service-pill-tag">Automotive Trends</span>
+                <span class="service-pill-tag">Demographic Ratios</span>
+              </div>
+            </div>
+            <div class="service-arrow-btn">↗</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ======================================================================
-         Featured Projects Section (With Image & Video Previews)
+         Selected Work Section (Matching Reference Image 1)
          ====================================================================== -->
-    <section id="projects" class="section">
+    <section id="selected-work" class="selected-work-section">
       <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Portfolio Case Studies</span>
-          <h2 class="section-title">Featured Data Analytics Projects</h2>
-          <p class="section-subtitle">
-            Every project demonstrates a full business cycle: Problem definition, SQL ETL, statistical exploration, interactive visualization, and measurable impact.
-          </p>
+        <div class="selected-work-header">
+          <div>
+            <div class="selected-work-kicker">
+              <span>■</span>
+              <span>Selected Work</span>
+            </div>
+            <h2 class="selected-work-title">
+              Not just charts.<br />
+              <span style="color: var(--accent-orange);">Built to make a difference.</span>
+            </h2>
+          </div>
+          <div class="selected-work-subtitle">
+            A comprehensive look at the analytical solutions I design — with full data specifications, verified statistics, and downloadable source models.
+          </div>
         </div>
 
         <!-- Category Filters -->
         <div class="project-filters">
           <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="powerbi">Power BI &amp; DAX</button>
+          <button class="filter-btn" data-filter="powerbi">Power BI &amp; BI</button>
           <button class="filter-btn" data-filter="python">Python &amp; ML</button>
-          <button class="filter-btn" data-filter="sql">SQL &amp; Databases</button>
-          <button class="filter-btn" data-filter="excel">Excel &amp; Operations</button>
         </div>
 
         <!-- Projects Grid -->
@@ -174,17 +306,66 @@
     </section>
 
     <!-- ======================================================================
-         Skills Matrix Section
+         The Analytics Process Section (01 -> 02 -> 03 -> 04)
          ====================================================================== -->
-    <section id="skills" class="section" style="background: rgba(15, 23, 42, 0.35);">
+    <section id="process" class="process-section">
       <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Core Competencies</span>
-          <h2 class="section-title">Technical Skills &amp; Analytics Toolkit</h2>
-          <p class="section-subtitle">
-            Tools, languages, and methodologies used to extract, model, and visualize data for executive consumption.
-          </p>
+        <div class="kicker-badge">
+          <span class="kicker-dot"></span>
+          <span>How I Work</span>
         </div>
+        <h2 style="font-size: 2.8rem; font-weight: 900; letter-spacing: -0.02em; margin-top: 10px;">
+          The Analytics Process
+        </h2>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-step-num">01</div>
+            <div class="process-step-title">Audit &amp; Hygiene</div>
+            <p class="process-step-desc">
+              Inspect original schemas, identify missing values, distinguish zero-imputation from authentic observations, and remove duplicates.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">02</div>
+            <div class="process-step-title">Data Modeling</div>
+            <p class="process-step-desc">
+              Engineer Star Schemas, build dynamic DAX measures or SQL CTEs, and establish relationships with verified cardinality.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">03</div>
+            <div class="process-step-title">Exploratory &amp; ML</div>
+            <p class="process-step-desc">
+              Run statistical distributions, train Scikit-learn/XGBoost predictive models, and compute transparent SHAP feature attributions.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">04</div>
+            <div class="process-step-title">Executive Delivery</div>
+            <p class="process-step-desc">
+              Deliver production dashboards and analytical reports ready for senior management, complete with drill-throughs and decision frameworks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Skills Matrix Section (Clean 2x2 Grid)
+         ====================================================================== -->
+    <section id="skills" class="skills-section" style="background: rgba(16, 22, 36, 0.4);">
+      <div class="container">
+        <div class="kicker-badge">
+          <span class="kicker-dot"></span>
+          <span>Technical Toolkit</span>
+        </div>
+        <h2 style="font-size: 2.8rem; font-weight: 900; letter-spacing: -0.02em; margin-top: 10px;">
+          Skills &amp; Technologies
+        </h2>
 
         <div class="skills-matrix" id="skills-matrix-container">
           <!-- Rendered dynamically -->
@@ -193,22 +374,21 @@
     </section>
 
     <!-- ======================================================================
-         Experience & Certifications Section
+         Experience & Credentials Section
          ====================================================================== -->
-    <section id="experience" class="section">
+    <section id="experience" class="experience-section">
       <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Background &amp; Credentials</span>
-          <h2 class="section-title">Experience &amp; Certifications</h2>
-          <p class="section-subtitle">
-            My professional career path and industry-recognized accreditations.
-          </p>
+        <div class="kicker-badge">
+          <span class="kicker-dot"></span>
+          <span>Background</span>
         </div>
+        <h2 style="font-size: 2.8rem; font-weight: 900; letter-spacing: -0.02em; margin-top: 10px;">
+          Experience &amp; Certifications
+        </h2>
 
         <div class="dual-col-layout">
-          <!-- Work Experience -->
           <div>
-            <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 20px; display: flex; align-items: center; gap: 8px;">
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px;">
               💼 Work History
             </h3>
             <div class="timeline-list" id="experience-timeline">
@@ -216,10 +396,9 @@
             </div>
           </div>
 
-          <!-- Certifications -->
           <div>
-            <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 20px; display: flex; align-items: center; gap: 8px;">
-              🎖️ Verified Certifications
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px;">
+              🎖️ Verified Credentials
             </h3>
             <div id="certifications-list">
               <!-- Rendered dynamically -->
@@ -230,28 +409,29 @@
     </section>
 
     <!-- ======================================================================
-         Contact & Call To Action Section
+         Call To Action Banner (Codeforge Bottom Banner)
          ====================================================================== -->
-    <section id="contact" class="section">
+    <section id="contact" class="cta-banner-section">
       <div class="container">
-        <div class="contact-card-banner">
-          <h2 class="contact-title">Have a Problem That Needs Data Clarity?</h2>
-          <p class="contact-subtitle">
+        <div class="cta-banner-card">
+          <h2 class="cta-banner-title">
+            Ready to turn data into your <span>unfair advantage?</span>
+          </h2>
+          <p class="cta-banner-subtitle">
             Whether you have an open Data Analyst role, a BI dashboard to revamp, or a complex dataset that needs making sense of, let's talk.
           </p>
 
-          <div class="contact-methods">
-            <button class="copy-email-btn" onclick="copyEmailToClipboard()">
+          <div class="cta-banner-buttons">
+            <button class="btn btn-secondary" onclick="copyEmailToClipboard()">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
               Copy Email Address
             </button>
 
-            <a href="#" class="btn btn-primary link-email">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              Send Direct Message
+            <a href="mailto:shashvat.analytics@gmail.com" class="btn btn-cta-orange">
+              Let's build something <span class="btn-arrow-icon">↗</span>
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary link-linkedin">
+            <a href="https://linkedin.com/in/shashvat-rai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
               Connect on LinkedIn
             </a>
           </div>
@@ -266,10 +446,10 @@
   <footer class="footer">
     <div class="container footer-content">
       <div>
-        © 2026 <strong class="profile-name">Shashvat Rai</strong>. Built for Data Analytics &amp; Business Intelligence.
+        © 2026 <strong>Shashvat Rai</strong>. Built for Data Analytics &amp; Business Intelligence.
       </div>
-      <div style="font-size: 0.85rem; color: var(--text-dim);">
-        Designed for High Recruiter Conversion • Ready for Deployment
+      <div style="font-size: 0.85rem; color: var(--text-dim); font-family: var(--font-mono);">
+        Deployed on GitHub Pages • Code &amp; Dashboards Available
       </div>
     </div>
   </footer>
@@ -360,7 +540,7 @@
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub Code
           </a>
-          <a id="cs-live-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <a id="cs-live-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-cta-orange btn-sm">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             Live Dashboard
           </a>
@@ -377,4 +557,3 @@
   <script src="js/main.js"></script>
 </body>
 </html>
-
