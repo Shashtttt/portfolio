@@ -237,7 +237,7 @@ function renderSkills() {
 }
 
 /* ==========================================================================
-   6. EXPERIENCE & CERTIFICATIONS
+   6. EXPERIENCE, CERTIFICATIONS & EDUCATION
    ========================================================================== */
 function renderTimeline() {
   const expContainer = document.getElementById('experience-timeline');
@@ -247,7 +247,11 @@ function renderTimeline() {
         <div class="timeline-period">${exp.period}</div>
         <h4 class="timeline-role">${exp.role}</h4>
         <div class="timeline-company">${exp.company}</div>
-        <p class="timeline-desc">${exp.description}</p>
+        ${exp.highlights && exp.highlights.length ? `
+          <ul class="timeline-bullet-list">
+            ${exp.highlights.map(h => `<li>${h}</li>`).join('')}
+          </ul>
+        ` : `<p class="timeline-desc">${exp.description || ''}</p>`}
       </div>
     `).join('');
   }
@@ -262,6 +266,23 @@ function renderTimeline() {
         <div>
           <h4 class="cert-title">${cert.title}</h4>
           <div class="cert-issuer">${cert.issuer} • ${cert.year}</div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  const eduContainer = document.getElementById('education-list');
+  if (eduContainer && typeof educationHistory !== 'undefined') {
+    eduContainer.innerHTML = educationHistory.map(edu => `
+      <div class="edu-card">
+        <div class="edu-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div>
+          <div style="font-size: 0.8rem; color: var(--accent-orange); font-weight: 700; font-family: var(--font-mono); margin-bottom: 4px;">${edu.year}</div>
+          <h4 class="edu-institution" style="font-size: 1.05rem; font-weight: 800; margin-bottom: 4px;">${edu.institution}</h4>
+          <div style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 4px;">${edu.degree}</div>
+          <div style="font-size: 0.85rem; color: var(--accent-cyan); font-weight: 600;">${edu.details}</div>
         </div>
       </div>
     `).join('');

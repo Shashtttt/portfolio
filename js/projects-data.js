@@ -641,36 +641,58 @@ const projectsData = [
 
 const workExperience = [
   {
-    role: "Data Analyst",
-    company: "Business Intelligence & Analytics Solutions",
-    period: "2023 - Present",
-    description: "Built and deployed production Power BI dashboards and Python analytics models. Engineered automated data cleaning pipelines and delivered executive presentations that directly drove operational decisions."
+    role: "Python Programming Intern",
+    company: "VaultofCodes",
+    period: "Jun 2024 – Aug 2024",
+    highlights: [
+      "Completed weekly practical assignments and development tasks as part of a Python programming internship.",
+      "Developed a Data Analyzer project covering dataset profiling, data cleaning, visualization, and insight generation."
+    ]
   },
   {
-    role: "Data Analysis Intern / Project Lead",
-    company: "AI & Market Analytics",
-    period: "2022 - 2023",
-    description: "Conducted exploratory data analysis in Python on 4,000+ consumer records. Created statistical visualization decks, evaluated customer attrition drivers, and designed interactive KPI tracking reports."
+    role: "Web Development & AI Intern",
+    company: "Star App Solutions",
+    period: "Mar 2024 – Jul 2024",
+    highlights: [
+      "Developed web applications using HTML, CSS, JavaScript, and Python.",
+      "Integrated AI and third-party APIs to add intelligent and interactive functionality to web applications.",
+      "Worked on practical projects involving frontend development, backend logic, and API integration."
+    ]
+  }
+];
+
+const educationHistory = [
+  {
+    institution: "The NorthCap University, Gurugram",
+    degree: "Master of Computer Applications (MCA), Data Analytics",
+    year: "2025 – 2027",
+    details: "CGPA: 8.11"
+  },
+  {
+    institution: "Lingayas Vidyapeeth",
+    degree: "Bachelor's Degree",
+    year: "2022 – 2025",
+    details: "Score: 85.70%"
+  },
+  {
+    institution: "Sherwood Convent School, CBSE",
+    degree: "Class XII (2021) & Class X (2019)",
+    year: "2019 – 2021",
+    details: "Class XII: 65.28% | Class X: 71.20%"
   }
 ];
 
 const certifications = [
   {
-    title: "Microsoft Certified: Power BI Data Analyst Associate",
-    issuer: "Microsoft Power BI",
-    year: "2024",
-    link: "#"
+    title: "AI Foundations Associate",
+    issuer: "Oracle",
+    year: "Certified",
+    link: "https://github.com/Shashtttt"
   },
   {
-    title: "Python for Data Science & Machine Learning",
-    issuer: "Data Science Specialization",
-    year: "2023",
-    link: "#"
-  },
-  {
-    title: "Advanced SQL & Relational Database Design",
-    issuer: "Database Analytics Guild",
-    year: "2023",
-    link: "#"
+    title: "Generative AI Professional",
+    issuer: "Oracle",
+    year: "Certified",
+    link: "https://github.com/Shashtttt"
   }
 ];
